@@ -1,6 +1,7 @@
-[gd_scene load_steps=26 format=3 uid="uid://cfa1pp2khtna8"]
+[gd_scene load_steps=28 format=3 uid="uid://cfa1pp2khtna8"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_g1irq"]
+<<<<<<< HEAD
 [ext_resource type="Texture2D" uid="uid://byo6w3xen843v" path="res://assets/truck_interior/order_walkup_firsthalf_1.png" id="2_6eull"]
 [ext_resource type="Texture2D" uid="uid://c5ky524hmcp8b" path="res://assets/truck_interior/order_walkup_firsthalf_2.png" id="3_40duv"]
 [ext_resource type="Texture2D" uid="uid://bwo0vftsuid3s" path="res://assets/truck_interior/order_walkup_firsthalf_3.png" id="4_lfkhs"]
@@ -8,6 +9,17 @@
 [ext_resource type="Texture2D" uid="uid://njcljdkjcbrk" path="res://assets/truck_interior/order_walkup_firsthalf_5.png" id="6_fcjci"]
 [ext_resource type="Texture2D" uid="uid://dhu0os8rjdr66" path="res://assets/truck_interior/order_walkup_firsthalf_6.png" id="7_lp8r3"]
 [ext_resource type="Texture2D" uid="uid://cs363cfwpd8pi" path="res://assets/truck_interior/truck_interior_v2.png" id="8_ggke1"]
+=======
+[ext_resource type="Texture2D" uid="uid://d3feptx88eswe" path="res://assets/truck_interior/order_walkup_firsthalf_1.png" id="2_6eull"]
+[ext_resource type="Texture2D" uid="uid://ddpeow8ctmnhx" path="res://assets/truck_interior/order_walkup_firsthalf_2.png" id="3_40duv"]
+[ext_resource type="PackedScene" uid="uid://cb4bp5deiwpic" path="res://assets/cutscene_scenes/quarterly_report.tscn" id="3_cjwil"]
+[ext_resource type="Texture2D" uid="uid://d3voh8lir4smx" path="res://assets/truck_interior/order_walkup_firsthalf_3.png" id="4_lfkhs"]
+[ext_resource type="PackedScene" uid="uid://4kvibjmvkh4b" path="res://assets/cutscene_scenes/game_over.tscn" id="4_r8mgv"]
+[ext_resource type="Texture2D" uid="uid://ce7kfkyhix3gn" path="res://assets/truck_interior/order_walkup_firsthalf_4.png" id="5_iwvww"]
+[ext_resource type="Texture2D" uid="uid://djnk7p54ioj12" path="res://assets/truck_interior/order_walkup_firsthalf_5.png" id="6_fcjci"]
+[ext_resource type="Texture2D" uid="uid://vw5ma4p7ju2b" path="res://assets/truck_interior/order_walkup_firsthalf_6.png" id="7_lp8r3"]
+[ext_resource type="Texture2D" uid="uid://b7dkbg212hmq7" path="res://assets/truck_interior/truck_interior_v2.png" id="8_ggke1"]
+>>>>>>> 406757a (transition logic)
 [ext_resource type="PackedScene" uid="uid://b7gswtspo7oa4" path="res://WalkPause.tscn" id="9_8c8p5"]
 [ext_resource type="FontFile" uid="uid://n78tfei6b8fj" path="res://assets/fonts/icecream_analog.ttf" id="10_byept"]
 [ext_resource type="FontFile" uid="uid://f1ol3y0i7u3p" path="res://assets/fonts/KarenFat.ttf" id="11_djkbk"]
@@ -58,6 +70,8 @@ dropper = NodePath("Dropper")
 main_scoop = NodePath("Scoop")
 tower = NodePath("Tower")
 scoop_scene = ExtResource("17_ccjbw")
+success_scene = ExtResource("3_cjwil")
+fail_scene = ExtResource("4_r8mgv")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(160, 53)

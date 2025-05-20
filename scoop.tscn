@@ -1,8 +1,7 @@
-[gd_scene load_steps=46 format=3 uid="uid://fq3a7ac4jr00"]
+[gd_scene load_steps=45 format=3 uid="uid://fq3a7ac4jr00"]
 
-[ext_resource type="Texture2D" uid="uid://xq4w5yc31u06" path="res://assets/icecream/scoop_red.png" id="1_cuavs"]
+[ext_resource type="Texture2D" uid="uid://dd344yu6hejqy" path="res://assets/icecream/scoop_red.png" id="1_cuavs"]
 [ext_resource type="Script" path="res://scoop.gd" id="1_ejldy"]
-[ext_resource type="Texture2D" uid="uid://dw3gxmb3ysbel" path="res://assets/vfx/plop_particle_texture.png" id="2_a0ahc"]
 
 [sub_resource type="Gradient" id="Gradient_6mcvd"]
 offsets = PackedFloat32Array(0, 0.852459, 1)
@@ -314,7 +313,6 @@ position = Vector2(0, 6)
 emitting = false
 amount = 12
 process_material = SubResource("ParticleProcessMaterial_rdomx")
-texture = ExtResource("2_a0ahc")
 lifetime = 1.5
 one_shot = true
 explosiveness = 1.0
@@ -347,7 +345,6 @@ position = Vector2(0, 6)
 emitting = false
 amount = 12
 process_material = SubResource("ParticleProcessMaterial_6i8se")
-texture = ExtResource("2_a0ahc")
 lifetime = 1.5
 one_shot = true
 explosiveness = 1.0
